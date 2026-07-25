@@ -271,7 +271,22 @@ const productsData = {
     // ELECTRONICS - LAPTOPS
     // ==========================================
     'electronics-laptops': [
-        { id: 17, name: 'MacBook Pro 16" M3 Max', brand: 'Apple', price: 249999, originalPrice: 269999, rating: 4.9, reviews: 189, badge: 'bestseller', stock: 'in-stock', category: 'Electronics', subcategory: 'Laptops', description: '16-inch Liquid Retina XDR, M3 Max chip, 36GB RAM, 1TB SSD, 22hr battery.' },
+        { id: 17, name: 'MacBook Pro 16" M3 Max',
+         brand: 'Apple',
+         price: 249999,
+         originalPrice: 269999,
+         rating: 4.9, 
+         reviews: 189,
+         badge: 'bestseller', 
+         stock: 'in-stock',
+         category: 'Electronics',
+         subcategory: 'Laptops', 
+         description: '16-inch Liquid Retina XDR, M3 Max chip, 36GB RAM, 1TB SSD, 22hr battery.'
+         image:
+         affiliate:
+         },
+
+         
         { id: 18, name: 'Dell XPS 16', brand: 'Dell', price: 189999, originalPrice: 199999, rating: 4.8, reviews: 156, badge: 'featured', stock: 'in-stock', category: 'Electronics', subcategory: 'Laptops', description: '16-inch OLED, Intel Core Ultra 9, 32GB RAM, 1TB SSD, RTX 4070.' },
         { id: 19, name: 'HP Spectre x360 16', brand: 'HP', price: 169999, originalPrice: 179999, rating: 4.7, reviews: 123, badge: 'new', stock: 'in-stock', category: 'Electronics', subcategory: 'Laptops', description: '16-inch 4K OLED, Intel Core Ultra 7, 16GB RAM, 1TB SSD, 360° hinge.' },
         { id: 20, name: 'Lenovo ThinkPad X1 Carbon', brand: 'Lenovo', price: 159999, originalPrice: 169999, rating: 4.8, reviews: 145, badge: 'featured', stock: 'in-stock', category: 'Electronics', subcategory: 'Laptops', description: '14-inch 2.8K OLED, Intel Core Ultra 7, 16GB RAM, 512GB SSD, 4G LTE.' },
